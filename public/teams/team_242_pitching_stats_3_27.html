@@ -1,0 +1,1098 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Opponent Pitching Stats Report - Split: Grass</title>
+<meta name="content-language" content="en-us">
+<meta name="content-type" content="text/html;charset=UTF-8">
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<script src="../scripts/sorttable.js"></script>
+
+
+<script language="javascript" type="text/javascript">
+
+function go(url,which)
+{
+	if (which==1)
+	{
+		box = document.forms[0].set;
+	}
+	else if (which==2)
+	{
+		box = document.forms[0].split;
+	}
+	if (box)
+	{
+		rExp = /TOKEN/gi;
+		x = box.options[box.selectedIndex].value;
+		if (x) location.href = url.replace(rExp, x);
+	}
+}
+
+</script>
+</head>
+<body class="ext_bg">
+
+<table cellspacing="0" cellpadding="0" align="center" width="968px">
+
+	<!-- OOTP IGNORE START TEAM HEADER -->
+	<tr>
+		<td>
+			<table border="0" width="968px" cellspacing="0" cellpadding="0" style="background-image:url(../images/report_header.jpg); background-repeat:no-repeat;">
+				<tr style="height:160px;">
+					<td align="left" valign="top" style="padding:4px 0px 0px 4px;"><a href="../leagues/league_212_home.html"><img src="../images/league_logos/california_league.png" border="0" title="California League"></a></td>
+					<td valign="top">
+						<table width="648px" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="center" valign="top" style="padding-top:14px;">
+									<div class="reptitle">MODESTO NUTS (A)</div>
+<div class="repsubtitle">OPPONENT PITCHING STATS REPORT - SPLIT: GRASS</div>
+
+									<div style="text-align:center; color:#FFFFFF; padding-top:4px;">01/18/2026</div>
+								</td>
+								<td><img src="../images/pixel.gif" width="1" height="138"></td>
+							</tr>
+							<tr>
+								<td align="center" valign="top" class="menu">
+									<a href="../index.html" class="menu">BNN Index</a>  |
+									<a href="../leagues/league_212_home.html" class="menu">CAL</a>  |
+									<a href="../leagues/league_212_scores.html" class="menu">SCORES</a>  |
+									<a href="../leagues/league_212_standings.html" class="menu">STANDINGS</a>  |
+									<a href="../leagues/league_212_stats.html" class="menu">STATS</a>  |
+									<a href="../leagues/league_212_teams.html" class="menu">TEAMS</a>  |
+									<a href="../leagues/league_212_players.html" class="menu">PLAYERS</a>  |
+									<a href="../leagues/league_212_transactions_0_0.html" class="menu">TRANSACTIONS</a>  |
+									<a href="../history/league_212_index.html" class="menu">HISTORY</a>
+								</td>
+								<td><img src="../images/pixel.gif" width="1" height="22"></td>
+							</tr>
+						</table>
+					</td>
+					<td align="right" valign="top" style="padding:4px 4px 0px 0px;"><a href="../teams/team_242.html"><img src="../images/team_logos/modesto_nuts.png" border="0" title="Modesto Nuts (A)"></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<!-- OOTP IGNORE END TEAM HEADER -->
+
+	<tr>
+	<td>
+		<form>
+			<table cellspacing="0" cellpadding="0" width="988px" style="margin-bottom:8px;">
+				<tr>
+					<td width="528px" class="boxtitle"><!--xOPPONENT PITCHING STATS REPORT - SPLIT: GRASSx--></td>
+					<td width="100px" class="boxsubtitle" align="right" style="padding-top:6px;">Select Set:</td>
+					<td width="120px" class="boxtitle" style="padding-top:6px;">
+						<select name="set" onChange="javascript:go('../teams/team_242_pitching_stats_TOKEN_27.html',1)">
+						<option value="0">Basic</option><option value="1">Expanded</option><option value="2">Expanded 2</option><option value="3" selected="1">Opponent</option>
+						</select>
+					</td>
+					<td width="60px" class="boxsubtitle" align="right" style="padding-top:6px;">Split:</td>
+					<td width="140px" class="boxtitle" style="padding-top:6px;">
+						<select name="split" onChange="javascript:go('../teams/team_242_pitching_stats_3_TOKEN.html',2)">
+						<option value="1">None</option><option value="2">Versus Left</option><option value="3">Versus Right</option><option value="4">This Week</option><option value="5">Last Week</option><option value="6">January</option><option value="7">February</option><option value="8">March</option><option value="9">April</option><option value="10">May</option><option value="11">June</option><option value="12">July</option><option value="13">August</option><option value="14">September</option><option value="15">October</option><option value="16">November</option><option value="17">December</option><option value="18">All-Star Game</option><option value="19">Spring Training</option><option value="20">Exhibition</option><option value="21">Postseason</option><option value="22">Last Year</option><option value="23">2 Years Ago</option><option value="24">Career</option><option value="25">Home</option><option value="26">Road</option><option value="27" selected="1">Grass</option><option value="28">Turf</option><option value="29">Day</option><option value="30">Night</option><option value="31">As Starter</option><option value="32">As Reliever / Substitution</option><option value="75">Low Leverage</option><option value="76">Medium Leverage</option><option value="77">High Leverage</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>		
+		<table class="stats sortable" cellspacing="0" cellpadding="0" width="968px">	
+			<tr>
+				<th class="hsc dl" style="width:180px;">Name</th>
+				<th class="hsn dr">G</th>
+				<th class="hsn dr">AB</th>
+				<th class="hsn dr">R</th>
+				<th class="hsn dr">H</th>
+				<th class="hsn dr">2B</th>
+				<th class="hsn dr">3B</th>
+				<th class="hsn dr">HR</th>
+				<th class="hsn dr">TB</th>
+				<th class="hsn dr">BB</th>
+				<th class="hsn dr">K</th>
+				<th class="hsn dr">SB</th>
+				<th class="hsn dr">CS</th>
+				<th class="hsn dr">AVG</th>
+				<th class="hsn dr">OBP</th>
+				<th class="hsn dr">SLG</th>
+				<th class="hsn dr">OPS</th>
+			</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43673.html">Cole Raymond</a> SP</td>
+		<td class="dr">1</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.500</td>
+		<td class="dr">.500</td>
+		<td class="dr">.500</td>
+		<td class="dr">1.000</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_130136.html">Randal Munoz</a> SP</td>
+		<td class="dr">1</td>
+		<td class="dr">6</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">3</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">.167</td>
+		<td class="dr">.444</td>
+		<td class="dr">.167</td>
+		<td class="dr">.611</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40367.html">Jimmy Joyce</a> SP</td>
+		<td class="dr">4</td>
+		<td class="dr">72</td>
+		<td class="dr">2</td>
+		<td class="dr">8</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">10</td>
+		<td class="dr">8</td>
+		<td class="dr">29</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">.111</td>
+		<td class="dr">.220</td>
+		<td class="dr">.139</td>
+		<td class="dr">.358</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_41211.html">Matt Tiberia</a> RP</td>
+		<td class="dr">12</td>
+		<td class="dr">75</td>
+		<td class="dr">3</td>
+		<td class="dr">18</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">24</td>
+		<td class="dr">7</td>
+		<td class="dr">32</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">.240</td>
+		<td class="dr">.333</td>
+		<td class="dr">.320</td>
+		<td class="dr">.653</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_42277.html">Allan Saathoff</a> RP</td>
+		<td class="dr">10</td>
+		<td class="dr">65</td>
+		<td class="dr">3</td>
+		<td class="dr">15</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">22</td>
+		<td class="dr">7</td>
+		<td class="dr">21</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.231</td>
+		<td class="dr">.351</td>
+		<td class="dr">.338</td>
+		<td class="dr">.689</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_44286.html">Wyatt Lunsford-Shenkman</a> SP</td>
+		<td class="dr">4</td>
+		<td class="dr">66</td>
+		<td class="dr">5</td>
+		<td class="dr">13</td>
+		<td class="dr">2</td>
+		<td class="dr">2</td>
+		<td class="dr">1</td>
+		<td class="dr">22</td>
+		<td class="dr">6</td>
+		<td class="dr">27</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.197</td>
+		<td class="dr">.293</td>
+		<td class="dr">.333</td>
+		<td class="dr">.627</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40449.html">Trevor Long</a> RP</td>
+		<td class="dr">15</td>
+		<td class="dr">62</td>
+		<td class="dr">4</td>
+		<td class="dr">12</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">19</td>
+		<td class="dr">10</td>
+		<td class="dr">25</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">.194</td>
+		<td class="dr">.333</td>
+		<td class="dr">.306</td>
+		<td class="dr">.640</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_45848.html">Ryan Sloan</a> SP</td>
+		<td class="dr">9</td>
+		<td class="dr">166</td>
+		<td class="dr">14</td>
+		<td class="dr">41</td>
+		<td class="dr">9</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">53</td>
+		<td class="dr">20</td>
+		<td class="dr">54</td>
+		<td class="dr">5</td>
+		<td class="dr">2</td>
+		<td class="dr">.247</td>
+		<td class="dr">.349</td>
+		<td class="dr">.319</td>
+		<td class="dr">.668</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_42141.html">Jack Dallas</a> RP</td>
+		<td class="dr">8</td>
+		<td class="dr">56</td>
+		<td class="dr">4</td>
+		<td class="dr">13</td>
+		<td class="dr">3</td>
+		<td class="dr">1</td>
+		<td class="dr">1</td>
+		<td class="dr">21</td>
+		<td class="dr">6</td>
+		<td class="dr">21</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.232</td>
+		<td class="dr">.317</td>
+		<td class="dr">.375</td>
+		<td class="dr">.692</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_42106.html">Jesse Wainscott</a> RP</td>
+		<td class="dr">10</td>
+		<td class="dr">66</td>
+		<td class="dr">5</td>
+		<td class="dr">21</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">30</td>
+		<td class="dr">8</td>
+		<td class="dr">22</td>
+		<td class="dr">1</td>
+		<td class="dr">1</td>
+		<td class="dr">.318</td>
+		<td class="dr">.395</td>
+		<td class="dr">.455</td>
+		<td class="dr">.849</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43580.html">Eddie Smink</a> SP</td>
+		<td class="dr">5</td>
+		<td class="dr">96</td>
+		<td class="dr">8</td>
+		<td class="dr">25</td>
+		<td class="dr">5</td>
+		<td class="dr">1</td>
+		<td class="dr">3</td>
+		<td class="dr">41</td>
+		<td class="dr">9</td>
+		<td class="dr">28</td>
+		<td class="dr">3</td>
+		<td class="dr">1</td>
+		<td class="dr">.260</td>
+		<td class="dr">.349</td>
+		<td class="dr">.427</td>
+		<td class="dr">.776</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_39902.html">Shaddon Peavyhouse</a> SP</td>
+		<td class="dr">14</td>
+		<td class="dr">276</td>
+		<td class="dr">23</td>
+		<td class="dr">62</td>
+		<td class="dr">9</td>
+		<td class="dr">4</td>
+		<td class="dr">3</td>
+		<td class="dr">88</td>
+		<td class="dr">18</td>
+		<td class="dr">107</td>
+		<td class="dr">7</td>
+		<td class="dr">3</td>
+		<td class="dr">.225</td>
+		<td class="dr">.303</td>
+		<td class="dr">.319</td>
+		<td class="dr">.622</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43590.html">Justin Mitrovich</a> SP</td>
+		<td class="dr">2</td>
+		<td class="dr">35</td>
+		<td class="dr">3</td>
+		<td class="dr">8</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">15</td>
+		<td class="dr">6</td>
+		<td class="dr">17</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.229</td>
+		<td class="dr">.386</td>
+		<td class="dr">.429</td>
+		<td class="dr">.815</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_41988.html">Nick Payero</a> SP</td>
+		<td class="dr">4</td>
+		<td class="dr">75</td>
+		<td class="dr">11</td>
+		<td class="dr">20</td>
+		<td class="dr">5</td>
+		<td class="dr">0</td>
+		<td class="dr">3</td>
+		<td class="dr">34</td>
+		<td class="dr">5</td>
+		<td class="dr">26</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">.267</td>
+		<td class="dr">.321</td>
+		<td class="dr">.453</td>
+		<td class="dr">.774</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_39562.html">Adrian Quintana</a> RP</td>
+		<td class="dr">20</td>
+		<td class="dr">164</td>
+		<td class="dr">14</td>
+		<td class="dr">48</td>
+		<td class="dr">13</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">67</td>
+		<td class="dr">10</td>
+		<td class="dr">41</td>
+		<td class="dr">1</td>
+		<td class="dr">2</td>
+		<td class="dr">.293</td>
+		<td class="dr">.331</td>
+		<td class="dr">.409</td>
+		<td class="dr">.740</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_130140.html">Kleiver Benitez</a> RP</td>
+		<td class="dr">2</td>
+		<td class="dr">11</td>
+		<td class="dr">1</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.182</td>
+		<td class="dr">.182</td>
+		<td class="dr">.364</td>
+		<td class="dr">.545</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40190.html">Jean Munoz</a> SP</td>
+		<td class="dr">9</td>
+		<td class="dr">66</td>
+		<td class="dr">6</td>
+		<td class="dr">12</td>
+		<td class="dr">2</td>
+		<td class="dr">1</td>
+		<td class="dr">1</td>
+		<td class="dr">19</td>
+		<td class="dr">5</td>
+		<td class="dr">21</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.182</td>
+		<td class="dr">.247</td>
+		<td class="dr">.288</td>
+		<td class="dr">.534</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43469.html">Kyle McCoy</a> SP</td>
+		<td class="dr">5</td>
+		<td class="dr">52</td>
+		<td class="dr">5</td>
+		<td class="dr">9</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">18</td>
+		<td class="dr">6</td>
+		<td class="dr">19</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.173</td>
+		<td class="dr">.271</td>
+		<td class="dr">.346</td>
+		<td class="dr">.617</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_128302.html">Jose Romero</a> RP</td>
+		<td class="dr">12</td>
+		<td class="dr">97</td>
+		<td class="dr">10</td>
+		<td class="dr">26</td>
+		<td class="dr">4</td>
+		<td class="dr">1</td>
+		<td class="dr">2</td>
+		<td class="dr">38</td>
+		<td class="dr">12</td>
+		<td class="dr">19</td>
+		<td class="dr">4</td>
+		<td class="dr">1</td>
+		<td class="dr">.268</td>
+		<td class="dr">.366</td>
+		<td class="dr">.392</td>
+		<td class="dr">.758</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_45088.html">Juan Pinto</a> SP</td>
+		<td class="dr">12</td>
+		<td class="dr">139</td>
+		<td class="dr">15</td>
+		<td class="dr">36</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">5</td>
+		<td class="dr">54</td>
+		<td class="dr">24</td>
+		<td class="dr">25</td>
+		<td class="dr">2</td>
+		<td class="dr">1</td>
+		<td class="dr">.259</td>
+		<td class="dr">.380</td>
+		<td class="dr">.388</td>
+		<td class="dr">.768</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_255.html">Ryan Hawks</a> SP</td>
+		<td class="dr">13</td>
+		<td class="dr">218</td>
+		<td class="dr">23</td>
+		<td class="dr">56</td>
+		<td class="dr">8</td>
+		<td class="dr">0</td>
+		<td class="dr">4</td>
+		<td class="dr">76</td>
+		<td class="dr">13</td>
+		<td class="dr">64</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">.257</td>
+		<td class="dr">.315</td>
+		<td class="dr">.349</td>
+		<td class="dr">.664</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_23337.html">Christian Little</a> SP</td>
+		<td class="dr">21</td>
+		<td class="dr">96</td>
+		<td class="dr">14</td>
+		<td class="dr">21</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">27</td>
+		<td class="dr">16</td>
+		<td class="dr">43</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">.219</td>
+		<td class="dr">.375</td>
+		<td class="dr">.281</td>
+		<td class="dr">.656</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_41340.html">Jordan Gottesman</a> SP</td>
+		<td class="dr">4</td>
+		<td class="dr">84</td>
+		<td class="dr">11</td>
+		<td class="dr">24</td>
+		<td class="dr">2</td>
+		<td class="dr">1</td>
+		<td class="dr">5</td>
+		<td class="dr">43</td>
+		<td class="dr">8</td>
+		<td class="dr">31</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.286</td>
+		<td class="dr">.368</td>
+		<td class="dr">.512</td>
+		<td class="dr">.880</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40282.html">Elijah Dale</a> RP</td>
+		<td class="dr">18</td>
+		<td class="dr">84</td>
+		<td class="dr">10</td>
+		<td class="dr">22</td>
+		<td class="dr">7</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">29</td>
+		<td class="dr">17</td>
+		<td class="dr">30</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">.262</td>
+		<td class="dr">.404</td>
+		<td class="dr">.345</td>
+		<td class="dr">.749</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_45743.html">Aiden Butler</a> SP</td>
+		<td class="dr">5</td>
+		<td class="dr">100</td>
+		<td class="dr">14</td>
+		<td class="dr">23</td>
+		<td class="dr">3</td>
+		<td class="dr">1</td>
+		<td class="dr">4</td>
+		<td class="dr">40</td>
+		<td class="dr">5</td>
+		<td class="dr">26</td>
+		<td class="dr">5</td>
+		<td class="dr">0</td>
+		<td class="dr">.230</td>
+		<td class="dr">.300</td>
+		<td class="dr">.400</td>
+		<td class="dr">.700</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_129073.html">Juan Cazarez</a> SP</td>
+		<td class="dr">16</td>
+		<td class="dr">255</td>
+		<td class="dr">36</td>
+		<td class="dr">67</td>
+		<td class="dr">12</td>
+		<td class="dr">0</td>
+		<td class="dr">10</td>
+		<td class="dr">109</td>
+		<td class="dr">30</td>
+		<td class="dr">77</td>
+		<td class="dr">10</td>
+		<td class="dr">1</td>
+		<td class="dr">.263</td>
+		<td class="dr">.358</td>
+		<td class="dr">.427</td>
+		<td class="dr">.786</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43710.html">Mitch Voit</a> 3B</td>
+		<td class="dr">3</td>
+		<td class="dr">55</td>
+		<td class="dr">7</td>
+		<td class="dr">16</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">20</td>
+		<td class="dr">7</td>
+		<td class="dr">18</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.291</td>
+		<td class="dr">.385</td>
+		<td class="dr">.364</td>
+		<td class="dr">.748</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_44009.html">Luke Delongchamp</a> SP</td>
+		<td class="dr">5</td>
+		<td class="dr">105</td>
+		<td class="dr">15</td>
+		<td class="dr">31</td>
+		<td class="dr">5</td>
+		<td class="dr">2</td>
+		<td class="dr">7</td>
+		<td class="dr">61</td>
+		<td class="dr">9</td>
+		<td class="dr">25</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.295</td>
+		<td class="dr">.353</td>
+		<td class="dr">.581</td>
+		<td class="dr">.934</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40197.html">Steven Sanchez</a> RP</td>
+		<td class="dr">9</td>
+		<td class="dr">78</td>
+		<td class="dr">11</td>
+		<td class="dr">23</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">4</td>
+		<td class="dr">37</td>
+		<td class="dr">12</td>
+		<td class="dr">21</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.295</td>
+		<td class="dr">.398</td>
+		<td class="dr">.474</td>
+		<td class="dr">.872</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_45090.html">Aneury Lora</a> SP</td>
+		<td class="dr">13</td>
+		<td class="dr">136</td>
+		<td class="dr">25</td>
+		<td class="dr">34</td>
+		<td class="dr">5</td>
+		<td class="dr">2</td>
+		<td class="dr">7</td>
+		<td class="dr">64</td>
+		<td class="dr">24</td>
+		<td class="dr">38</td>
+		<td class="dr">5</td>
+		<td class="dr">0</td>
+		<td class="dr">.250</td>
+		<td class="dr">.378</td>
+		<td class="dr">.471</td>
+		<td class="dr">.849</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_130138.html">Chia-Shi Shen</a> SP</td>
+		<td class="dr">4</td>
+		<td class="dr">78</td>
+		<td class="dr">12</td>
+		<td class="dr">22</td>
+		<td class="dr">5</td>
+		<td class="dr">2</td>
+		<td class="dr">2</td>
+		<td class="dr">37</td>
+		<td class="dr">7</td>
+		<td class="dr">24</td>
+		<td class="dr">1</td>
+		<td class="dr">1</td>
+		<td class="dr">.282</td>
+		<td class="dr">.352</td>
+		<td class="dr">.474</td>
+		<td class="dr">.827</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_128002.html">Kendal Meza</a> SP</td>
+		<td class="dr">8</td>
+		<td class="dr">100</td>
+		<td class="dr">16</td>
+		<td class="dr">25</td>
+		<td class="dr">7</td>
+		<td class="dr">0</td>
+		<td class="dr">5</td>
+		<td class="dr">47</td>
+		<td class="dr">18</td>
+		<td class="dr">35</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.250</td>
+		<td class="dr">.385</td>
+		<td class="dr">.470</td>
+		<td class="dr">.855</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_41814.html">German Fajardo</a> SP</td>
+		<td class="dr">9</td>
+		<td class="dr">104</td>
+		<td class="dr">19</td>
+		<td class="dr">27</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">7</td>
+		<td class="dr">51</td>
+		<td class="dr">26</td>
+		<td class="dr">34</td>
+		<td class="dr">3</td>
+		<td class="dr">1</td>
+		<td class="dr">.260</td>
+		<td class="dr">.417</td>
+		<td class="dr">.490</td>
+		<td class="dr">.907</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_47119.html">Wuilliams Rodriguez</a> SP</td>
+		<td class="dr">11</td>
+		<td class="dr">126</td>
+		<td class="dr">20</td>
+		<td class="dr">42</td>
+		<td class="dr">8</td>
+		<td class="dr">3</td>
+		<td class="dr">2</td>
+		<td class="dr">62</td>
+		<td class="dr">23</td>
+		<td class="dr">21</td>
+		<td class="dr">3</td>
+		<td class="dr">0</td>
+		<td class="dr">.333</td>
+		<td class="dr">.459</td>
+		<td class="dr">.492</td>
+		<td class="dr">.951</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_47082.html">Yensy Bello</a> RP</td>
+		<td class="dr">8</td>
+		<td class="dr">40</td>
+		<td class="dr">8</td>
+		<td class="dr">5</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">6</td>
+		<td class="dr">14</td>
+		<td class="dr">16</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.125</td>
+		<td class="dr">.364</td>
+		<td class="dr">.150</td>
+		<td class="dr">.514</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43373.html">Ashton Izzi</a> SP</td>
+		<td class="dr">17</td>
+		<td class="dr">204</td>
+		<td class="dr">38</td>
+		<td class="dr">54</td>
+		<td class="dr">10</td>
+		<td class="dr">1</td>
+		<td class="dr">7</td>
+		<td class="dr">87</td>
+		<td class="dr">40</td>
+		<td class="dr">68</td>
+		<td class="dr">8</td>
+		<td class="dr">4</td>
+		<td class="dr">.265</td>
+		<td class="dr">.416</td>
+		<td class="dr">.426</td>
+		<td class="dr">.843</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43647.html">Cole Phillips</a> SP</td>
+		<td class="dr">8</td>
+		<td class="dr">142</td>
+		<td class="dr">26</td>
+		<td class="dr">42</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">7</td>
+		<td class="dr">67</td>
+		<td class="dr">25</td>
+		<td class="dr">40</td>
+		<td class="dr">9</td>
+		<td class="dr">1</td>
+		<td class="dr">.296</td>
+		<td class="dr">.404</td>
+		<td class="dr">.472</td>
+		<td class="dr">.875</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_129223.html">Roberto Perez</a> SP</td>
+		<td class="dr">9</td>
+		<td class="dr">113</td>
+		<td class="dr">20</td>
+		<td class="dr">32</td>
+		<td class="dr">6</td>
+		<td class="dr">4</td>
+		<td class="dr">7</td>
+		<td class="dr">67</td>
+		<td class="dr">20</td>
+		<td class="dr">27</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.283</td>
+		<td class="dr">.404</td>
+		<td class="dr">.593</td>
+		<td class="dr">.997</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_43924.html">Thomas Higgins</a> SP</td>
+		<td class="dr">5</td>
+		<td class="dr">93</td>
+		<td class="dr">18</td>
+		<td class="dr">27</td>
+		<td class="dr">6</td>
+		<td class="dr">1</td>
+		<td class="dr">4</td>
+		<td class="dr">47</td>
+		<td class="dr">12</td>
+		<td class="dr">18</td>
+		<td class="dr">2</td>
+		<td class="dr">1</td>
+		<td class="dr">.290</td>
+		<td class="dr">.377</td>
+		<td class="dr">.505</td>
+		<td class="dr">.883</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_45087.html">Roiber Talavera</a> RP</td>
+		<td class="dr">10</td>
+		<td class="dr">76</td>
+		<td class="dr">15</td>
+		<td class="dr">20</td>
+		<td class="dr">8</td>
+		<td class="dr">1</td>
+		<td class="dr">4</td>
+		<td class="dr">42</td>
+		<td class="dr">15</td>
+		<td class="dr">18</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.263</td>
+		<td class="dr">.404</td>
+		<td class="dr">.553</td>
+		<td class="dr">.957</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_44227.html">Harrison Kreiling</a> SP</td>
+		<td class="dr">3</td>
+		<td class="dr">46</td>
+		<td class="dr">9</td>
+		<td class="dr">15</td>
+		<td class="dr">5</td>
+		<td class="dr">1</td>
+		<td class="dr">1</td>
+		<td class="dr">25</td>
+		<td class="dr">5</td>
+		<td class="dr">15</td>
+		<td class="dr">1</td>
+		<td class="dr">1</td>
+		<td class="dr">.326</td>
+		<td class="dr">.392</td>
+		<td class="dr">.543</td>
+		<td class="dr">.936</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_129224.html">Ruben Ramirez</a> RP</td>
+		<td class="dr">16</td>
+		<td class="dr">120</td>
+		<td class="dr">24</td>
+		<td class="dr">38</td>
+		<td class="dr">5</td>
+		<td class="dr">0</td>
+		<td class="dr">5</td>
+		<td class="dr">58</td>
+		<td class="dr">13</td>
+		<td class="dr">47</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">.317</td>
+		<td class="dr">.393</td>
+		<td class="dr">.483</td>
+		<td class="dr">.876</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_128324.html">Dylan Wilson</a> SP</td>
+		<td class="dr">9</td>
+		<td class="dr">144</td>
+		<td class="dr">33</td>
+		<td class="dr">44</td>
+		<td class="dr">6</td>
+		<td class="dr">3</td>
+		<td class="dr">11</td>
+		<td class="dr">89</td>
+		<td class="dr">28</td>
+		<td class="dr">35</td>
+		<td class="dr">8</td>
+		<td class="dr">1</td>
+		<td class="dr">.306</td>
+		<td class="dr">.426</td>
+		<td class="dr">.618</td>
+		<td class="dr">1.044</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_47095.html">Anderson Guevara</a> RP</td>
+		<td class="dr">6</td>
+		<td class="dr">50</td>
+		<td class="dr">10</td>
+		<td class="dr">15</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">20</td>
+		<td class="dr">15</td>
+		<td class="dr">15</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.300</td>
+		<td class="dr">.462</td>
+		<td class="dr">.400</td>
+		<td class="dr">.862</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40401.html">Daniel Ouderkirk</a> SP</td>
+		<td class="dr">5</td>
+		<td class="dr">48</td>
+		<td class="dr">11</td>
+		<td class="dr">13</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">5</td>
+		<td class="dr">29</td>
+		<td class="dr">10</td>
+		<td class="dr">20</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">.271</td>
+		<td class="dr">.417</td>
+		<td class="dr">.604</td>
+		<td class="dr">1.021</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40448.html">Jack White</a> SP</td>
+		<td class="dr">17</td>
+		<td class="dr">174</td>
+		<td class="dr">40</td>
+		<td class="dr">59</td>
+		<td class="dr">9</td>
+		<td class="dr">0</td>
+		<td class="dr">11</td>
+		<td class="dr">101</td>
+		<td class="dr">32</td>
+		<td class="dr">49</td>
+		<td class="dr">4</td>
+		<td class="dr">5</td>
+		<td class="dr">.339</td>
+		<td class="dr">.461</td>
+		<td class="dr">.580</td>
+		<td class="dr">1.042</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_40776.html">Gage Boehm</a> RP</td>
+		<td class="dr">9</td>
+		<td class="dr">35</td>
+		<td class="dr">10</td>
+		<td class="dr">11</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">16</td>
+		<td class="dr">6</td>
+		<td class="dr">10</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.314</td>
+		<td class="dr">.455</td>
+		<td class="dr">.457</td>
+		<td class="dr">.912</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_129537.html">Gregori Arrieche</a> RP</td>
+		<td class="dr">3</td>
+		<td class="dr">20</td>
+		<td class="dr">7</td>
+		<td class="dr">8</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">16</td>
+		<td class="dr">3</td>
+		<td class="dr">4</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.400</td>
+		<td class="dr">.538</td>
+		<td class="dr">.800</td>
+		<td class="dr">1.338</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_130493.html">Alfredo Atayde</a> SP</td>
+		<td class="dr">1</td>
+		<td class="dr">10</td>
+		<td class="dr">5</td>
+		<td class="dr">3</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">1</td>
+		<td class="dr">7</td>
+		<td class="dr">5</td>
+		<td class="dr">3</td>
+		<td class="dr">1</td>
+		<td class="dr">0</td>
+		<td class="dr">.300</td>
+		<td class="dr">.533</td>
+		<td class="dr">.700</td>
+		<td class="dr">1.233</td>
+	</tr>
+	<tr>
+		<td class="dl"><a href="../players/player_128352.html">Jose Zerpa</a> SP</td>
+		<td class="dr">3</td>
+		<td class="dr">23</td>
+		<td class="dr">11</td>
+		<td class="dr">13</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">2</td>
+		<td class="dr">21</td>
+		<td class="dr">6</td>
+		<td class="dr">2</td>
+		<td class="dr">0</td>
+		<td class="dr">0</td>
+		<td class="dr">.565</td>
+		<td class="dr">.655</td>
+		<td class="dr">.913</td>
+		<td class="dr">1.568</td>
+	</tr>
+		</table>
+	</td>
+</tr>
+	
+	<tr>
+		<td style="padding-top:8px;"><!-- OOTP IGNORE START PAGE FOOTER --><img src="../images/bnn_bottom_bar.jpg" border="0"><!-- OOTP IGNORE END PAGE FOOTER --></td>
+
+	</tr>
+	
+</table>
+
+<!-- OOTP IGNORE START PAGE BOTTOM -->
+<table cellspacing="0" cellpadding="0" align="center" width="968px">
+	
+	<tr>
+		<td style="padding-top:2px; font-size:11px; text-align:center;">
+			Saturday, February 14th , 2026 - OOTP Baseball 26.8 Build 82
+		</td>
+	</tr>	
+</table>
+<!-- OOTP IGNORE END PAGE BOTTOM -->
+
+
+</body>
+</html>
